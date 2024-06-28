@@ -9,4 +9,4 @@ class Item(models.Model):
     
     item_name = models.CharField(max_length=200)
     item_descp = models.CharField(max_length=200)
-    item_price = models.IntegerField((""))
+    item_price = models.IntegerField()
